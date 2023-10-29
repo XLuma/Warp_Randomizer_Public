@@ -1,0 +1,70 @@
+CHANGELOG
+
+2.0:
+   - Add HGSS support
+   - Fix randomisation bug where on failure, some arrays were not properly cleaned out due to double call to a function. This may
+        have resulted in seeds being thrown out as invalid, where they would actually be valid. Improves seed generation massively accross games.
+1.99.2
+- Fixed bug in White 2 where the 7th gym could not be beaten at all
+- Fixed bug in FRLG where randomization would fail when trying to add Birth Island
+- Removed a rogue warp in Emerald that was located on sea, causing softlocks and also being innaccessible
+- A number of changes have been made to FRLG to fix accesible warps as well as missing warp/maps
+- A number of changes have been made to Platinum to fix accessible warps as well as missing warp/maps
+- Surf is now obtainable in White 2 after beating the 5th gym and going to route 6
+- The warp pads in the Nimbasa stadium lobbies are no longer going to be used as one-way warps, to prevent a hardlock
+- Bianca in chargestone cave is now fixed and will dissapear upon obtaining Surf
+- Black 2 victory road map is no longer accessible, making 3 warp points now accessible
+1.99.1
+- Fixed issue in Windows builds were frlg randomization would sometime loop indefinetely
+
+1.99.0 (The Not Quite 2.0 Update)
+-Initial Fire Red and Leaf Green support(1.0 and 1.1):
+    -Fly and teleport enabled everywhere
+    -Warps in the elite 4 have been modified to reflect the changes from emerald
+
+-Initial White 2 support:
+    -Fly and teleport enabled everywhere
+    -A number of script changes to account for post game content and story blocks:
+        - In the intro sequence after bianca shows you the center, you get warped outside
+        - In mistralton city, the center area of the city is surrounded by triggers, that will teleport you at a specific location and play a script. This is to prevent a game freeze.
+        - After the scripted PWT tournament, you will get automaticly warped back outside.
+        - In Aspertia City, until you get your starter, all warps are blocked.
+        - The boat captain is made always available in Virbank city (if you can find the map hehe)
+        - To prevent any possible issues, Spring Season is enforced.
+        - A number of useless NPC's have been moved around to free paths. (Mostly NPC's related to post game content)
+        - The main deck of the Plasma frigate is never reachable due to a lot of conflicts between versions, and story flags
+    -Compatible with White 2 US only at the moment
+
+-Fixed a handful of internal flags used during warp randomisation for Emerald
+-Randomization logic has been rewritten from the ground-up. Generated seeds should now give a much cleaner output, guaranteeing better playability
+-Splash image when the program launches (windows only), and an icon(all systems) ! (thank you abby :D )
+    
+1.1.0
+-Added initial Platinum support
+-Fixed Fly not being available everywhere in Emerald
+-Fixed a bug in the manual seed input where a givens tring would give a different result than supposed
+
+1.0.3
+-Fixed hardlock at the Trick House where the exit with the scroll stayed forever
+-Fixed softlock with the magma grunt at Jagged pass
+-Fixed another issue with warp pairing that caused closed loops sometimes
+-Added the ability to manually input a seed 
+
+1.0.2
+-Fixed bug where Sootopolis would be hardlocked
+-Fixed bug at Sky Pillar where Wallace would bring your out of bounds
+-Fixed elite4 rooms making you go forward
+-Fixed UPR compatibility(check FAQ for instructions)
+-Teleport/Fly can now be used everywhere
+-Fixed staircase warps bringing you a tile further than needed
+-Randomizer now outputs to a new rom
+-UWR now outputs the seed generated
+
+1.0.1
+-Added MacOS and Linux executables
+-Fixed a bug where roms from UPR would not work properly, and roms written by UWP would not work in UPR
+-Fixed a bug where some maps would not be paired
+-Fixed a bug where upon entering elite4 rooms, you would get locked into battle
+
+1.0
+-Initial release
