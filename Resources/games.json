@@ -1,0 +1,52 @@
+{
+  "Emerald": {
+        "system": "gba",
+        "gen": 3,
+        "def_flag": 0
+      },
+  "Platinum": {
+        "system": "nds",
+        "gen": 4,
+        "def_flag": 1
+      },
+  "HeartGold": {
+        "system": "nds",
+        "gen": 4,
+        "def_flag": 2
+      },
+  "SoulSilver": {
+        "system": "nds",
+        "gen": 4,
+        "def_flag": 3
+      },
+  "FireRed": {
+        "system": "gba",
+        "gen": 3,
+        "def_flag": 4
+      },
+  "LeafGreen": {
+        "system": "gba",
+        "gen": 3,
+        "def_flag": 5
+  },
+  "Ruby": {
+        "system": "gba",
+        "gen": 3,
+        "def_flag": 6
+      },
+  "Sapphire": {
+        "system": "gba",
+        "gen": 3,
+        "def_flag": 7
+  },
+  "White2": {
+        "system": "nds",
+        "gen": 5,
+        "def_flag": 8
+  },
+  "Black2": {
+        "system": "nds",
+        "gen": 5,
+        "def_flag": 9
+  }
+}

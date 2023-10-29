@@ -1,0 +1,29 @@
+{
+  "hashes": {
+    "605b89b67018abcea91e693a4dd25be3": ["Emerald", 0],
+    "b6497b146f30bc54b486e51ecce08257": ["Platinum", 0],
+    "ae2a483d0a5e8130d39f44f41a86df57": ["HeartGold", 0],
+    "545aa550bafeebdd71ee0256d4c122a0": ["SoulSilver", 0],
+    "2e6208369a742e57ee146cd67a0d560e": ["FireRed", 4]
+  },
+  "game_codes": {
+    "BPEE": "Emerald",
+    "CPUE": "Platinum",
+    "IPKE": "HeartGold",
+    "IPGE": "SoulSilver",
+    "BPRE": "FireRed",
+    "BPGE": "LeafGreen",
+    "IRDO": "White2",
+    "IREO": "Black2"
+  },
+  "titles": {
+    "POKEMON EMER": "Emerald",
+    "POKEMON PL": "Platinum",
+    "POKEMON HG": "HeartGold",
+    "POKEMON SS": "SoulSilver",
+    "POKEMON FR": "FireRed",
+    "POKEMON LG": "LeafGreen",
+    "POKEMON W2": "White2",
+    "POKEMON B2": "Black2"
+}
+}
